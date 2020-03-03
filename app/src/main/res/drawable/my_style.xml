@@ -2,10 +2,13 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_focused="true"
-        android:drawable="@drawable/my_background_focus" />
+        android:state_enabled="true"
+        android:drawable="@drawable/my_background_focused" />
     <item
         android:state_pressed="true"
-        android:drawable="@drawable/my_background_click" />
+        android:state_enabled="true"
+        android:drawable="@drawable/my_background_pressed" />
     <item
-        android:drawable="@drawable/my_background_normal" />
+        android:state_enabled="true"
+        android:drawable="@drawable/my_background_enabled" />
 </selector>
